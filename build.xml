@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project default="build" name="youtube-content" basedir=".">
+
+    <property name="build.dir" value="build" />
+
+    <target name="clean" description="Removes all temporary files.">
+        <delete dir="${build.dir}" />
+    </target>
+
+    <target name="build" depends="clean" description="Builds the application.">
+        <echo>${ant.project.name}</echo>
+        <zip destfile="${build.dir}/${ant.project.name}.zip">
+            <fileset dir="." includes="index.html" />
+            <fileset dir="." includes="youtube.xml" />
+            <fileset dir="." includes="youtube.php" />
+            <fileset dir="." includes="en-GB.plg_editors-content_youtube.ini" />
+        </zip>
+    </target>
+</project>

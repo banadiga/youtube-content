@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="content">
+    <name>Joomla Youtube "content".</name>
+    <author>Joomla! Project</author>
+    <creationDate>August 2004</creationDate>
+    <copyright>Copyright (C) 2005 - 2014 Open Source Matters. All rights reserved.</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <authorEmail>banadiga@mail.ru</authorEmail>
+    <authorUrl>www.banadiga.com</authorUrl>
+    <version>3.0.0</version>
+    <description>Display video from youtube.com</description>
+    <files>
+        <filename plugin="youtube">youtube.php</filename>
+        <filename>index.html</filename>
+    </files>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field name="type" type="list" default="1" description="Sive" label="Select size of video">
+                    <option value="0">560 × 315</option>
+                    <option value="1">640 × 360</option>
+                    <option value="2">853 × 480</option>
+                    <option value="3">1280 × 720</option>
+                </field>
+            </fieldset>
+        </fields>
+    </config>
+</extension>
