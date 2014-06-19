@@ -3,7 +3,7 @@
 
     <property name="build.dir" value="build" />
 
-    <target name="clean" description="Removes all temporary files.">
+    <target name="clean" description="Removes all build files.">
         <delete dir="${build.dir}" />
     </target>
 
@@ -13,7 +13,6 @@
             <fileset dir="." includes="index.html" />
             <fileset dir="." includes="youtube.xml" />
             <fileset dir="." includes="youtube.php" />
-            <fileset dir="." includes="en-GB.plg_editors-content_youtube.ini" />
         </zip>
     </target>
 </project>
