@@ -1,27 +1,38 @@
-Youtube content
-===================
+# Youtube content
+
 Replase youtube video prevew to video with selected size.
-It is free and open source software, distributed under the GNU General Public License version 2 or later. 
 
 
-Dependency
--------------------
-Use plugin [youtube-editors-xtd](https://github.com/banadiga/youtube-editors-xtd) to insert youtube video prevew.
+
+## Dependency
+* youtube-content version 1.0 is compatible with Joomla 3.x.
+* Use plugin [youtube-editors-xtd](https://github.com/banadiga/youtube-editors-xtd) to insert youtube video prevew.
 
 
-LICENSE
--------------------
-See LICENSE for the GNU GENERAL PUBLIC LICENSE
+## LICENSE
+
+It is free and open source software, distributed under the GNU General Public License version 2 or later.
+See [LICENSE](https://raw.githubusercontent.com/banadiga/youtube-content/master/LICENSE) for the GNU GENERAL PUBLIC LICENSE
 
 
-Quick install
--------------------
-* Download released build plugin from  ```http://``` **TBD**.
+## Quick install
+
+* Download released build plugin from ```http://``` [Download: youtube-content.zip](https://...) **TBD**.
 * Install downloaded plugin.
 
 
-How to build plugin and install
--------------------
-* Clone project **TBD**.
-* Build project **TBD**.
-* Install joomla plugn located at build/youtube-content.zip
+## How to build plugin and install
+
+Clone a copy of the main youtube-content git repo by running:
+
+```bash
+git clone git://github.com/banadiga/youtube-content.git
+```
+
+Enter the `youtube-content` directory and run the build script:
+
+```bash
+ant
+```
+
+The built version of youtube-content will be put in the `build/` subdirectory, along with the `youtube-content.zip`.
