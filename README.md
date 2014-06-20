@@ -12,6 +12,7 @@ Replace youtube video prevew with video player of selected size.
 ## LICENSE
 
 It is free and open source software, distributed under the GNU General Public License version 2 or later.
+
 See [LICENSE](https://raw.githubusercontent.com/banadiga/youtube-content/master/LICENSE) for the GNU GENERAL PUBLIC LICENSE
 
 
