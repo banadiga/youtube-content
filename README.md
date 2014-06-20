@@ -1,6 +1,6 @@
 # Youtube content
 
-Replase youtube video prevew to video with selected size.
+Replace youtube video prevew with video player of selected size.
 
 
 
@@ -21,7 +21,7 @@ See [LICENSE](https://raw.githubusercontent.com/banadiga/youtube-content/master/
 * Install downloaded plugin.
 
 
-## How to build plugin and install
+## How to build and install the plugin
 
 * Clone a copy of the main youtube-content git repo by running:
 ```bash
@@ -31,4 +31,4 @@ git clone git://github.com/banadiga/youtube-content.git
 ```bash
 ant
 ```
-* The built version of youtube-content will be put in the `build/` subdirectory, along with the `youtube-content.zip`.
+* The built version of youtube-content will be placed in the `build/` subdirectory, along with the `youtube-content.zip`.
