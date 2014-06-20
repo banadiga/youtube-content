@@ -17,22 +17,18 @@ See [LICENSE](https://raw.githubusercontent.com/banadiga/youtube-content/master/
 
 ## Quick install
 
-* Download released build plugin from ```http://``` [Download: youtube-content.zip](https://...) **TBD**.
+* Download released build plugin from ```https://github.com/banadiga/youtube-content/releases/download/v1.0/youtube-content.zip``` [Download: youtube-content.zip](https://github.com/banadiga/youtube-content/releases/download/v1.0/youtube-content.zip).
 * Install downloaded plugin.
 
 
 ## How to build plugin and install
 
-Clone a copy of the main youtube-content git repo by running:
-
+* Clone a copy of the main youtube-content git repo by running:
 ```bash
 git clone git://github.com/banadiga/youtube-content.git
 ```
-
-Enter the `youtube-content` directory and run the build script:
-
+* Enter the `youtube-content` directory and run the build script:
 ```bash
 ant
 ```
-
-The built version of youtube-content will be put in the `build/` subdirectory, along with the `youtube-content.zip`.
+* The built version of youtube-content will be put in the `build/` subdirectory, along with the `youtube-content.zip`.
