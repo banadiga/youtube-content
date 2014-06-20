@@ -33,3 +33,4 @@ git clone git://github.com/banadiga/youtube-content.git
 ant
 ```
 * The built version of youtube-content will be placed in the `build/` subdirectory, along with the `youtube-content.zip`.
+* Install downloaded plugin.
